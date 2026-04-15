@@ -1,0 +1,5 @@
+repo:
+  name: {{PROJECT_SLUG}}
+  role: project-template-derived
+  model: single-repo
+  default_branch: {{DEFAULT_BRANCH}}

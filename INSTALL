@@ -1,0 +1,25 @@
+# Install
+
+This bootstrap ships with a minimal verification baseline.
+
+## Initialize The Project Metadata
+
+Run from repository root:
+
+```bash
+bash ./utl/init-project.sh
+```
+
+## First Local Check
+
+After initialization, run:
+
+```bash
+{{DEFAULT_VERIFY_CMD}}
+```
+
+## Expected Outcome
+
+- required structure exists
+- governed markdown surfaces are emoji-free
+- accepted-task handoff template is present and uses `## Plan`
